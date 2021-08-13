@@ -1,7 +1,15 @@
+Welcome to the SampleFlaskProject wiki!
+
+
 # SampleFlaskProject
 This project is for the person who want to learn flask framework. It is easy and sample project for first leaner. This project is use with python3.
 
-You will learn the folling things on this project.
+This project learn from this youtube video. Please check and learn from this video. 
+
+[Click here](https://www.youtube.com/watch?v=Qr4QMBUPxWo)
+
+
+You will learn the following things from this project.
 
 1. Flask Framework
 2. SQlite Database CRUD
@@ -12,22 +20,24 @@ You will learn the folling things on this project.
 7. Jinja template
 8. Bootstrap
 
-Step by step instructions to start project 
+## Step by step instructions to start project 
 
-Install virtual environmet
+1. Install virtual environment and flask 
 
-python3 -m venv venv
+   [Please Click here ](https://flask.palletsprojects.com/en/1.1.x/installation/#activate-the-environment)
 
-Activate the environment
+2. Install the following libraries. 
+   
+   ### Flask-login 
+   pip install flask-login
+   ### Flask-Bcrypt
+   pip install flask-bcrypt
+   ### WTForms
+   pip install -U Flask-WTF
+   ### SQLAlchemy
+   pip install SQLAlchemy
 
-Before activate the virutal enviornment, you need to check your current project dir.If you are not current project dir, you must go to current project dir first and then run the following line in the terminal.
+3. Run the following file. 
 
-For Mac and Linux, 
-
-$ . venv/bin/activate
-
-For window,
-
-> venv\Scripts\activate
-
-
+   python run.py
+   
